@@ -1,0 +1,14 @@
+// 4. Wap to accept two integer numbers swap them using 4 different methods in C language  
+  
+  int main() {
+  int a,b;
+  printf("Enter first number = \n");
+  scanf("%d",&a);
+  printf("Enter second number = \n");
+  scanf("%d",&b);
+  a=a^b;
+  b=a^b;
+  a=a^b;
+  printf("The numbers are x = %d and y = %d",a,b);
+  return 0;
+}
