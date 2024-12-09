@@ -1,0 +1,12 @@
+// 3. Wap to subtract two integers without using the Minus (-) operator
+
+  int main() {
+  int x, y, difference;
+  printf("Enter first number = \n");
+  scanf("%d",&x);
+  printf("Enter second number = \n");
+  scanf("%d",&y);
+  difference = x + ~y + 1;
+  printf("The difference of %d and %d is = %d\n",x,y,difference);
+  return 0;
+}
